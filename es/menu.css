@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    background-image: url(leche.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a,li{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.logo_header img{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: -50px;
+    margin-bottom: 10px;
+
+}
+header{
+  align-self: center;
+  max-width: 2000px;
+  font-size: 20px;
+  margin-top: 30px;
+  height: 140px;
+  position: center;
+  display: flex;
+  background-color: darkslateblue;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.navbar ul.menu_horizontal{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar ul.menu_horizontal>li>a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+
+}
+.navbar ul.menu_vertical{
+  position: absolute;
+  width: 300px;
+  display: none;
+  list-style: none;
+  background-color:darkslateblue;
+}
+
+.navbar ul.menu_horizontal > li>a:hover{
+  background-color: white;
+  color: darkslateblue;
+}
+.navbar ul.menu_horizontal li:hover ul.menu_vertical{
+  display: block;
+  background-color: white;
+  color: darkslateblue;
+
+
+}
+.navbar ul.menu_vertical li>a:hover{
+  background-color:#9F81F7;
+  color:white;
+}
+.navbar ul.menu_vertical li a{
+  display: block;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+  color: darkslateblue;
+}
+h2{
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+  color: darkslateblue;
+  font-size: 80px;
+  letter-spacing: 5px;
+  top: 50%;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 140px;
+  
+  text-shadow: -1px -1px 0px white,
+    3px 3px 0px white,
+    6px 6px 0px white;
+}
+body{
+  font-family: 'Maiandra GD';
+}

@@ -1,0 +1,79 @@
+#main-container{
+    margin-left: 220px;
+    width: 600px;
+
+}
+table{
+    align-self: center;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Kristen ITC;
+
+}
+th, td{
+    border:solid 1px black;
+    padding: 5px;
+
+}
+thead{
+    background-color:#084B8A;
+    color: white;
+}
+tr:nth-child(even){
+    background-color:#90fa94;
+}
+.concept{
+    background-color:darkcyan;
+    color: white; 
+}
+
+.delete{
+    
+    background-color:red; font-size: 15px; border-color: red;
+}
+.edit{
+    background-color:#4caf50; font-size: 15px; border-color: #4caf50; 
+}   
+.delete, .edit{
+    border-style: solid;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom:24px;
+	margin-top: 10px;
+    margin-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+.delete:hover{
+    background-color: white;
+    color:red;
+}
+.edit:hover{
+    background-color: white;
+    color:#4caf50;
+}
+.return{
+    border-style: solid;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom:24px;
+	margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    border-radius: 20px; 
+    background-color:midnightblue; font-size: 20px; border-color: midnightblue;
+}
+
+
+
