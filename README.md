@@ -3,7 +3,7 @@
 ![Logo o imagen representativa del proyecto](https://via.placeholder.com/150)  
 *(Si tienes un logo, reemplaza esta URL)*
 
-**Itinerate** es una aplicación web diseñada para gestionar términos de leche, proveedores, clientes, ganancias y producción. La aplicación está disponible en dos versiones: español e inglés. Los datos se almacenan en una base de datos MySQL gestionada directamente desde la terminal (no se utiliza phpMyAdmin).
+**Itinerate** es una aplicación web diseñada para gestionar términos de leche, proveedores, clientes, ganancias y producción. La aplicación está disponible en dos versiones: español e inglés. Los datos se almacenan en una base de datos MySQL gestionada directamente desde la terminal.
 
 ---
 
