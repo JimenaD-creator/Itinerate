@@ -1,4 +1,4 @@
-# Itinerate - Gestión de Términos de Leche
+# Itinerate - Gestión de Producción de Leche
 
 ![Logo o imagen representativa del proyecto](https://via.placeholder.com/150)  
 *(Si tienes un logo, reemplaza esta URL)*
